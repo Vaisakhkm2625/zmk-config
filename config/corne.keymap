@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/mouse.h>
 
 #define BASE 0
 #define NAV 1
@@ -81,9 +80,9 @@
 
         mou_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_DOWN  &mmv MOVE_DOWN  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans  &kp A   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mmv MOVE_DOWN  &mmv MOVE_UP  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans        &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans          &trans
             >;
         };
