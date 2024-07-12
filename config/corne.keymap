@@ -28,6 +28,13 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        td_home: td_home {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_HOME";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL>, <&kp HOME>;
+        };
     };
 
     combos {
@@ -54,7 +61,7 @@
         nav_layer {
             bindings = <
 &none  &kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3            &kp NUMBER_4              &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &none
-&none  &hm LEFT_ALT SQT  &hm LGUI MINUS  &hm LCTRL LEFT_BRACKET  &hm LSHIFT RIGHT_BRACKET  &kp EQUAL       &kp LEFT       &kp DOWN          &kp UP           &kp RIGHT     &kp SQT       &none
+&none  &hm LEFT_ALT SQT  &hm LGUI MINUS  &hm LCTRL LEFT_BRACKET  &hm LSHIFT RIGHT_BRACKET  &td_home        &kp LEFT       &kp DOWN          &kp UP           &kp RIGHT     &kp SQT       &none
 &none  &kp GRAVE         &kp LGUI        &hm RCTRL C_VOL_DN      &hm LSHIFT C_VOL_UP       &kp BSLH        &kp BACKSPACE  &hm RSHIFT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &kp RALT      &none
                                          &tog 3                  &kp BACKSPACE             &kp LEFT_GUI    &kp RET        &kp SPACE         &kp DEL
             >;
