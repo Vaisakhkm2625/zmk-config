@@ -52,7 +52,7 @@
 
         combo_to_nav {
             bindings = <&mo 1>;
-            key-positions = <12 13>;
+            key-positions = <13 14>;
         };
 
         tosymlayer {
