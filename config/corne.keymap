@@ -79,10 +79,10 @@
 
         num_layer {
             bindings = <
-&none  &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT     &to 0    &none       &none      &none     &none     &none
-&none  &kp SQT    &kp N4  &kp N5  &kp N6  &kp EQUAL    &none    &kp RSHIFT  &kp RCTRL  &kp RGUI  &kp RALT  &none
-&none  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp BSLH     &none    &kp LSHFT   &kp LCTRL  &kp LGUI  &kp LALT  &none
-                          &to 0   &kp N0  &kp MINUS    &kp RET  &kp SPACE   &kp DEL
+&none  &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT        &to 0      &none       &none      &none     &none     &none
+&none  &kp SQT    &kp N4  &kp N5  &kp N6  &kp EQUAL       &kp MINUS  &kp RSHIFT  &kp RCTRL  &kp RGUI  &kp RALT  &none
+&none  &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp BSLH        &none      &kp LSHFT   &kp LCTRL  &kp LGUI  &kp LALT  &none
+                          &to 0   &kp N0  &kp LEFT_GUI    &kp RET    &kp SPACE   &kp DEL
             >;
         };
 
@@ -91,7 +91,7 @@
 &none  &kp F12  &kp F7  &kp F8  &kp F9     &kp PSCRN          &none  &none       &none      &none     &none     &none
 &none  &kp F11  &kp F4  &kp F5  &kp F6     &kp SLCK           &none  &kp RSHIFT  &kp RCTRL  &kp RGUI  &kp RALT  &none
 &none  &kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK    &none  &kp LSHFT   &kp LCTRL  &kp LGUI  &kp LALT  &none
-                        &to 0   &kp SPACE  &kp TAB            &mo 4  &kp SPACE   &none
+                        &to 0   &kp SPACE  &kp LEFT_GUI       &mo 4  &kp SPACE   &none
             >;
         };
 
