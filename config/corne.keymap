@@ -41,7 +41,7 @@
         compatible = "zmk,combos";
 
         jkEsc {
-            bindings = <&kp ESC>;
+            bindings = <&lt 1 ESC>;
             key-positions = <19 20>;
         };
 
@@ -52,7 +52,7 @@
 
         combo_to_nav {
             bindings = <&mo 1>;
-            key-positions = <13 14>;
+            key-positions = <15 16>;
         };
 
         tosymlayer {
