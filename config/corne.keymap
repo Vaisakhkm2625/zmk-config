@@ -41,6 +41,8 @@
             label = "TD_WIN";
             #binding-cells = <0>;
             bindings = <&kp LWIN>, <&nav_layer_win>;
+
+            tapping-term-ms = <250>;
         };
     };
 
