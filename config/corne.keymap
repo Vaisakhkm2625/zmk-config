@@ -114,10 +114,10 @@
 
         nav_layer {
             bindings = <
-&none  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3            &kp NUMBER_4            &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7      &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0  &none
-&none  &hm LSHIFT SQT  &hm LGUI MINUS  &hm LCTRL LEFT_BRACKET  &hm LALT RIGHT_BRACKET  &td_home        &kp LEFT       &kp DOWN          &kp UP           &kp RIGHT     &kp SQT       &none
-&none  &kp LCTRL       &kp LGUI        &hm RCTRL C_VOL_DN      &hm LALT C_VOL_UP       &kp BSLH        &kp BACKSPACE  &hm RSHIFT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &kp RALT      &none
-                                       &to 0                   &kp BACKSPACE           &kp LEFT_GUI    &kp ENTER      &kp SPACE         &kp DEL
+&none  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3            &kp NUMBER_4            &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7         &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                   &none
+&none  &hm LSHIFT SQT  &hm LGUI MINUS  &hm LCTRL LEFT_BRACKET  &hm LALT RIGHT_BRACKET  &td_home        &kp LEFT       &kp DOWN             &kp UP           &kp RIGHT     &kp SQT                        &none
+&none  &kp LCTRL       &kp LGUI        &hm RCTRL C_VOL_DN      &hm LALT C_VOL_UP       &kp BSLH        &kp BACKSPACE  &hm RIGHT_ALT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &hm RIGHT_SHIFT DOUBLE_QUOTES  &none
+                                       &to 0                   &kp BACKSPACE           &kp LEFT_GUI    &kp ENTER      &kp SPACE            &kp DEL
             >;
         };
 
@@ -132,10 +132,10 @@
 
         fun_layer {
             bindings = <
-&none  &kp F12  &kp F7  &kp F8  &kp F9     &kp PSCRN          &none  &none       &none      &none     &none     &none
-&none  &kp F11  &kp F4  &kp F5  &kp F6     &kp SLCK           &none  &kp RSHIFT  &kp RCTRL  &kp RGUI  &kp RALT  &none
-&none  &kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK    &none  &kp LSHFT   &kp LCTRL  &kp LGUI  &kp LALT  &none
-                        &to 0   &kp SPACE  &kp LEFT_GUI       &mo 2  &kp SPACE   &none
+&none  &kp F12  &kp F7  &kp F8  &kp F9     &kp PSCRN          &none  &none      &none      &none     &none       &none
+&none  &kp F11  &kp F4  &kp F5  &kp F6     &kp SLCK           &none  &kp RALT   &kp RCTRL  &kp RGUI  &kp RSHIFT  &none
+&none  &kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK    &none  &kp RALT   &kp LCTRL  &kp LGUI  &kp RSHIFT  &none
+                        &to 0   &kp SPACE  &kp LEFT_GUI       &mo 2  &kp SPACE  &none
             >;
         };
 
