@@ -46,6 +46,13 @@
 
             tapping-term-ms = <250>;
         };
+
+        td_l12: td_l12 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_L12";
+            #binding-cells = <0>;
+            bindings = <&mo 1>, <&mo 2>;
+        };
     };
 
     combos {
@@ -99,7 +106,7 @@
 &none  &mt ESCAPE Q      &kp W       &kp E        &kp R           &kp T      &kp Y      &kp U            &kp I            &kp O         &kp P                &none
 &none  &hm LEFT_SHIFT A  &kp S       &hm LCTRL D  &hm LEFT_ALT F  &kp G      &kp H      &kp J            &kp K            &kp L         &kp ENTER            &none
 &none  &hm LCTRL Z       &hm LGUI X  &hm LCTRL C  &hm LSHFT V     &kp B      &kp N      &hm RIGHT_ALT M  &hm LCTRL COMMA  &hm LGUI DOT  &hm LEFT_SHIFT FSLH  &none
-                                     &mo 3        &lt 1 TAB       &td_win    &kp SPACE  &lt 2 SPACE      &lt 4 DEL
+                                     &mo 3        &lt 1 TAB       &td_win    &kp SPACE  &td_l12          &lt 4 DEL
             >;
         };
 
@@ -132,10 +139,10 @@
 
         adj_layer {
             bindings = <
-&none  &none         &none         &none         &none         &none          &bt BT_CLR   &none       &none  &none  &none  &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none          &none        &none       &none  &none  &none  &none
-&none  &out OUT_TOG  &bt BT_PRV    &bt BT_NXT    &sys_reset    &bootloader    &bootloader  &sys_reset  &none  &none  &none  &none
-                                   &to 0         &none         &none          &none        &none       &none
+&none  &none         &none         &none         &none         &none           &bt BT_CLR   &none       &none       &none  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG    &none        &bt BT_PRV  &bt BT_NXT  &none  &none  &none
+&none  &none         &none         &none         &sys_reset    &bootloader     &bootloader  &sys_reset  &none       &none  &none  &none
+                                   &to 0         &none         &none           &none        &none       &none
             >;
         };
 
