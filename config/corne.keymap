@@ -98,6 +98,22 @@
             bindings = <&mo 1 &sk LEFT_GUI>;
             label = "NAV_LAYER_WIN";
         };
+
+        repeat_vaisakk: repeat_vaisakk {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE>;
+            label = "REPEAT_VAISAKK";
+            wait-ms = <60000>;
+        };
+
+        repeat_vaisakh_fast: repeat_vaisakh_fast {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE &kp V &kp A &kp I &kp S &kp A &kp K &kp H &kp SPACE &kp K &kp M &kp SPACE>;
+            label = "REPEAT_VAISAKH_FAST";
+            wait-ms = <1000>;
+        };
     };
 
     keymap {
@@ -132,10 +148,10 @@
 
         fun_layer {
             bindings = <
-&none  &kp F12  &kp F7  &kp F8  &kp F9     &kp PSCRN          &none  &none           &none         &none     &none       &none
-&none  &kp F11  &kp F4  &kp F5  &kp F6     &kp SLCK           &none  &mmv MOVE_DOWN  &mmv MOVE_UP  &kp RGUI  &kp RSHIFT  &none
-&none  &kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK    &none  &kp RALT        &kp LCTRL     &kp LGUI  &kp RSHIFT  &none
-                        &to 0   &kp SPACE  &kp LEFT_GUI       &mo 2  &kp SPACE       &none
+&none  &kp F12  &kp F7  &kp F8  &kp F9     &kp PSCRN          &none  &repeat_vaisakk  &repeat_vaisakh_fast  &none     &none       &none
+&none  &kp F11  &kp F4  &kp F5  &kp F6     &kp SLCK           &none  &kp RIGHT_ALT    &kp RCTRL             &kp RGUI  &kp RSHIFT  &none
+&none  &kp F10  &kp F1  &kp F2  &kp F3     &kp PAUSE_BREAK    &none  &kp RALT         &kp LCTRL             &kp LGUI  &kp RSHIFT  &none
+                        &to 0   &kp SPACE  &kp LEFT_GUI       &mo 2  &kp SPACE        &none
             >;
         };
 
