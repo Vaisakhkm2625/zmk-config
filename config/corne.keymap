@@ -56,16 +56,6 @@
 
             tapping-term-ms = <250>;
         };
-
-        entershift: entershift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "ENTERSHIFT";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            quick-tap-ms = <120>;
-            tapping-term-ms = <120>;
-        };
     };
 
     combos {
@@ -132,9 +122,9 @@
 
         default_layer {
             bindings = <
-&none  &mt ESCAPE Q      &kp W       &kp E        &kp R           &kp T       &kp Y      &kp U            &kp I            &kp O         &kp P                          &none
-&none  &hm LEFT_SHIFT A  &kp S       &hm LCTRL D  &hm LEFT_ALT F  &kp G       &kp H      &kp J            &kp K            &kp L         &entershift RIGHT_SHIFT ENTER  &none
-&none  &hm LCTRL Z       &hm LGUI X  &hm LCTRL C  &hm LSHFT V     &kp B       &kp N      &hm RIGHT_ALT M  &hm LCTRL COMMA  &hm LGUI DOT  &hm LEFT_SHIFT FSLH            &none
+&none  &mt ESCAPE Q      &kp W       &kp E        &kp R           &kp T       &kp Y      &kp U            &kp I            &kp O         &kp P                      &none
+&none  &hm LEFT_SHIFT A  &kp S       &hm LCTRL D  &hm LEFT_ALT F  &kp G       &kp H      &kp J            &kp K            &kp L         &hm RIGHT_SHIFT SEMICOLON  &none
+&none  &hm LCTRL Z       &hm LGUI X  &hm LCTRL C  &hm LSHFT V     &kp B       &kp N      &hm RIGHT_ALT M  &hm LCTRL COMMA  &hm LGUI DOT  &hm LEFT_SHIFT FSLH        &none
                                      &mo 3        &lt 2 TAB       &kp LGUI    &kp SPACE  &mo 1            &lt 4 DEL
             >;
         };
@@ -142,7 +132,7 @@
         nav_layer {
             bindings = <
 &none  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3        &kp NUMBER_4            &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7         &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                   &none
-&none  &hm LSHIFT TILDE  &kp LGUI      &hm LCTRL SQT       &hm LALT DOUBLE_QUOTES  &kp C_VOL_UP    &kp LEFT       &kp DOWN             &kp UP           &kp RIGHT     &kp COLON                      &none
+&none  &hm LSHIFT TILDE  &kp LGUI      &hm LCTRL SQT       &hm LALT DOUBLE_QUOTES  &kp C_VOL_UP    &kp LEFT       &kp DOWN             &kp UP           &kp RIGHT     &kp ENTER                      &none
 &none  &hm LCTRL GRAVE   &kp LGUI      &hm RCTRL C_VOL_UP  &hm LALT C_VOL_DN       &kp C_VOL_DN    &kp BACKSPACE  &hm RIGHT_ALT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &hm RIGHT_SHIFT DOUBLE_QUOTES  &none
                                        &to 0               &kp BACKSPACE           &kp LEFT_GUI    &kp ENTER      &kp SPACE            &kp DEL
             >;
