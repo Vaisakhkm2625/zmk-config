@@ -131,19 +131,19 @@
 
         nav_layer {
             bindings = <
-&none  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3            &kp NUMBER_4            &kp NUMBER_5         &kp NUMBER_6   &kp NUMBER_7         &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                   &none
-&none  &hm LSHIFT SQT  &hm LGUI MINUS  &hm LCTRL LEFT_BRACKET  &hm LALT RIGHT_BRACKET  &kp DOUBLE_QUOTES    &kp LEFT       &kp DOWN             &kp UP           &kp RIGHT     &kp COLON                      &none
-&none  &kp LCTRL       &kp LGUI        &hm RCTRL C_VOL_DN      &hm LALT C_VOL_UP       &kp SQT              &kp BACKSPACE  &hm RIGHT_ALT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &hm RIGHT_SHIFT DOUBLE_QUOTES  &none
-                                       &to 0                   &kp BACKSPACE           &kp LEFT_GUI         &kp ENTER      &kp SPACE            &kp DEL
+&none  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3        &kp NUMBER_4            &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7         &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                   &none
+&none  &hm LSHIFT SQT  &kp LGUI      &hm LCTRL SQT       &hm LALT DOUBLE_QUOTES  &kp C_VOL_UP    &kp LEFT       &kp DOWN             &kp UP           &kp RIGHT     &kp COLON                      &none
+&none  &kp LCTRL       &kp LGUI      &hm RCTRL C_VOL_UP  &hm LALT C_VOL_DN       &kp C_VOL_DN    &kp BACKSPACE  &hm RIGHT_ALT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &hm RIGHT_SHIFT DOUBLE_QUOTES  &none
+                                     &to 0               &kp BACKSPACE           &kp LEFT_GUI    &kp ENTER      &kp SPACE            &kp DEL
             >;
         };
 
         sym_layer {
             bindings = <
-&trans  &kp EXCLAMATION       &kp AT_SIGN   &kp HASH                &kp DOLLAR                  &kp PERCENT          &kp CARET      &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &hm LEFT_SHIFT TILDE  &kp LGUI      &hm LCTRL LBRC          &hm LALT RIGHT_BRACE        &kp DOUBLE_QUOTES    &kp PIPE       &kp MINUS       &kp PLUS         &kp COLON             &kp SEMI               &trans
-&trans  &hm LCTRL GRAVE       &kp LEFT_GUI  &hm LCTRL LEFT_BRACKET  &hm LEFT_ALT RIGHT_BRACKET  &kp SQT              &kp BACKSPACE  &hm UNDER LALT  &hm RCTRL EQUAL  &hm RIGHT_GUI PERIOD  &hm RSHIFT BACKSLASH   &trans
-                                            &to 0                   &trans                      &kp LEFT_GUI         &trans         &trans          &trans
+&trans  &kp EXCLAMATION       &kp AT_SIGN   &kp HASH            &kp DOLLAR             &kp PERCENT          &kp CARET      &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &hm LEFT_SHIFT TILDE  &kp LGUI      &hm LCTRL LBRC      &hm LALT RIGHT_BRACE   &kp DOUBLE_QUOTES    &kp PIPE       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL             &kp SEMI               &trans
+&trans  &hm LCTRL GRAVE       &kp LEFT_GUI  &hm LCTRL C_VOL_DN  &hm LEFT_ALT C_VOL_UP  &kp SQT              &kp BACKSPACE  &hm MINUS LALT    &hm RCTRL PLUS     &hm RIGHT_GUI PERIOD  &hm RSHIFT BACKSLASH   &trans
+                                            &to 0               &trans                 &kp LEFT_GUI         &trans         &trans            &trans
             >;
         };
 
