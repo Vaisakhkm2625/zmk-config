@@ -131,10 +131,10 @@
 
         nav_layer {
             bindings = <
-&none  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3        &kp NUMBER_4            &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7         &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                   &none
-&none  &hm LSHIFT SQT  &kp LGUI      &hm LCTRL SQT       &hm LALT DOUBLE_QUOTES  &kp C_VOL_UP    &kp LEFT       &kp DOWN             &kp UP           &kp RIGHT     &kp COLON                      &none
-&none  &kp LCTRL       &kp LGUI      &hm RCTRL C_VOL_UP  &hm LALT C_VOL_DN       &kp C_VOL_DN    &kp BACKSPACE  &hm RIGHT_ALT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &hm RIGHT_SHIFT DOUBLE_QUOTES  &none
-                                     &to 0               &kp BACKSPACE           &kp LEFT_GUI    &kp ENTER      &kp SPACE            &kp DEL
+&none  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3        &kp NUMBER_4            &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7         &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                   &none
+&none  &hm LSHIFT TILDE  &kp LGUI      &hm LCTRL SQT       &hm LALT DOUBLE_QUOTES  &kp C_VOL_UP    &kp LEFT       &kp DOWN             &kp UP           &kp RIGHT     &kp COLON                      &none
+&none  &hm LCTRL GRAVE   &kp LGUI      &hm RCTRL C_VOL_UP  &hm LALT C_VOL_DN       &kp C_VOL_DN    &kp BACKSPACE  &hm RIGHT_ALT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &hm RIGHT_SHIFT DOUBLE_QUOTES  &none
+                                       &to 0               &kp BACKSPACE           &kp LEFT_GUI    &kp ENTER      &kp SPACE            &kp DEL
             >;
         };
 
