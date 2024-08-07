@@ -39,15 +39,6 @@
             bindings = <&kp DOUBLE_QUOTES>, <&kp HOME>;
         };
 
-        td_win: td_win {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_WIN";
-            #binding-cells = <0>;
-            bindings = <&kp LWIN>, <&nav_layer_win>;
-
-            tapping-term-ms = <250>;
-        };
-
         td_l12: td_l12 {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_L12";
@@ -93,13 +84,6 @@
     };
 
     macros {
-        nav_layer_win: nav_layer_win {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "NAV_LAYER_WIN";
-        };
-
         repeat_vaisakk: repeat_vaisakk {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
