@@ -79,7 +79,7 @@
 
         combo_to_nav_right {
             bindings = <&mo 1>;
-            key-positions = <21 22 28>;
+            key-positions = <21 22>;
         };
     };
 
