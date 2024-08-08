@@ -77,9 +77,19 @@
             key-positions = <38 30>;
         };
 
-        combo_to_nav_right {
-            bindings = <&mo 1>;
+        combo_to_sym_right {
+            bindings = <&mo 2>;
             key-positions = <21 22>;
+        };
+
+        combo_to_sym_mid_r {
+            bindings = <&mo 2>;
+            key-positions = <21 20>;
+        };
+
+        combo_to_nav_mid_l {
+            bindings = <&mo 1>;
+            key-positions = <21 20>;
         };
     };
 
