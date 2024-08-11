@@ -134,10 +134,10 @@
 
         sym_layer {
             bindings = <
-&trans  &kp EXCLAMATION       &kp AT_SIGN   &kp HASH            &kp DOLLAR             &kp PERCENT          &kp CARET      &kp AMPERSAND               &kp ASTERISK             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &hm LEFT_SHIFT TILDE  &kp LGUI      &hm LCTRL LBRC      &hm LALT RIGHT_BRACE   &kp DOUBLE_QUOTES    &kp PIPE       &kp LEFT_BRACE              &kp RIGHT_BRACE          &kp EQUAL             &kp SEMI               &trans
-&trans  &hm LCTRL GRAVE       &kp LEFT_GUI  &hm LCTRL C_VOL_DN  &hm LEFT_ALT C_VOL_UP  &kp SQT              &kp BACKSPACE  &hm RIGHT_ALT LEFT_BRACKET  &hm RCTRL RIGHT_BRACKET  &hm RIGHT_GUI PERIOD  &hm RSHIFT BACKSLASH   &trans
-                                            &to 0               &trans                 &kp LEFT_GUI         &trans         &trans                      &trans
+&trans  &kp EXCLAMATION       &kp AT_SIGN          &kp HASH            &kp DOLLAR             &kp PERCENT          &kp CARET      &kp AMPERSAND               &kp ASTERISK             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &hm LEFT_SHIFT TILDE  &hm LGUI UNDERSCORE  &hm LCTRL LBRC      &hm LALT RIGHT_BRACE   &kp DOUBLE_QUOTES    &kp PIPE       &kp LEFT_BRACE              &kp RIGHT_BRACE          &kp EQUAL             &kp SEMI               &trans
+&trans  &hm LCTRL GRAVE       &kp LEFT_GUI         &hm LCTRL C_VOL_DN  &hm LEFT_ALT C_VOL_UP  &kp SQT              &kp BACKSPACE  &hm RIGHT_ALT LEFT_BRACKET  &hm RCTRL RIGHT_BRACKET  &hm RIGHT_GUI PERIOD  &hm RSHIFT BACKSLASH   &trans
+                                                   &to 0               &trans                 &kp LEFT_GUI         &trans         &trans                      &trans
             >;
         };
 
