@@ -125,9 +125,9 @@
 
         nav_layer {
             bindings = <
-&none  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4            &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7         &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                   &none
-&none  &hm LSHIFT TILDE  &kp LGUI      &hm LCTRL MINUS  &hm LALT PLUS           &kp C_VOL_UP    &kp LEFT       &kp DOWN             &kp UP           &kp RIGHT     &kp COLON                      &none
-&none  &hm LCTRL GRAVE   &kp LGUI      &hm RCTRL SQT    &hm LALT DOUBLE_QUOTES  &kp C_VOL_DN    &kp BACKSPACE  &hm RIGHT_ALT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &hm RIGHT_SHIFT DOUBLE_QUOTES  &none
+&none  &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4            &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7         &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0                &none
+&none  &hm LSHIFT TILDE  &kp LGUI      &hm LCTRL MINUS  &hm LALT PLUS           &kp C_VOL_UP    &kp LEFT       &kp DOWN             &kp UP           &kp RIGHT     &kp COLON                   &none
+&none  &hm LCTRL GRAVE   &kp LGUI      &hm RCTRL SQT    &hm LALT DOUBLE_QUOTES  &kp C_VOL_DN    &kp BACKSPACE  &hm RIGHT_ALT PG_DN  &hm RCTRL PG_UP  &hm RGUI END  &hm RIGHT_SHIFT UNDERSCORE  &none
                                        &to 0            &kp BACKSPACE           &kp LEFT_GUI    &kp ENTER      &kp SPACE            &kp DEL
             >;
         };
