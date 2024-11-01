@@ -91,6 +91,11 @@
             bindings = <&mo 1>;
             key-positions = <21 20>;
         };
+
+        menukey {
+            bindings = <&kp C_MENU>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
