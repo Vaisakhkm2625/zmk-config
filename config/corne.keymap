@@ -93,7 +93,7 @@
         };
 
         menukey {
-            bindings = <&kp C_MENU>;
+            bindings = <&kp K_APPLICATION>;
             key-positions = <7 8>;
         };
     };
