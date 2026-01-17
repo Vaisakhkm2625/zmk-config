@@ -95,6 +95,12 @@
             bindings = <&kp K_APPLICATION>;
             key-positions = <7 8>;
         };
+
+        to_without_hm {
+            bindings = <&to 6>;
+            key-positions = <15 16>;
+            layers = <0>;
+        };
     };
 
     macros {
